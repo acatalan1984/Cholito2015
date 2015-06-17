@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1EFBC70E1B32104F001D19B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFBC70D1B32104F001D19B0 /* AppDelegate.swift */; };
+		1EFBC7101B32104F001D19B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFBC70F1B32104F001D19B0 /* ViewController.swift */; };
+		1EFBC7131B32104F001D19B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EFBC7111B32104F001D19B0 /* Main.storyboard */; };
+		1EFBC7151B32104F001D19B0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EFBC7141B32104F001D19B0 /* Images.xcassets */; };
+		1EFBC7181B32104F001D19B0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1EFBC7161B32104F001D19B0 /* LaunchScreen.xib */; };
+		1EFBC7241B32104F001D19B0 /* Cholito2015Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFBC7231B32104F001D19B0 /* Cholito2015Tests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1EFBC71E1B32104F001D19B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1EFBC7001B32104F001D19B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EFBC7071B32104F001D19B0;
+			remoteInfo = Cholito2015;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1EFBC7081B32104F001D19B0 /* Cholito2015.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cholito2015.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EFBC70C1B32104F001D19B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EFBC70D1B32104F001D19B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1EFBC70F1B32104F001D19B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1EFBC7121B32104F001D19B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1EFBC7141B32104F001D19B0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1EFBC7171B32104F001D19B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1EFBC71D1B32104F001D19B0 /* Cholito2015Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Cholito2015Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EFBC7221B32104F001D19B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EFBC7231B32104F001D19B0 /* Cholito2015Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cholito2015Tests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1EFBC7051B32104F001D19B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EFBC71A1B32104F001D19B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1EFBC6FF1B32104F001D19B0 = {
+			isa = PBXGroup;
+			children = (
+				1EFBC70A1B32104F001D19B0 /* Cholito2015 */,
+				1EFBC7201B32104F001D19B0 /* Cholito2015Tests */,
+				1EFBC7091B32104F001D19B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1EFBC7091B32104F001D19B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1EFBC7081B32104F001D19B0 /* Cholito2015.app */,
+				1EFBC71D1B32104F001D19B0 /* Cholito2015Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1EFBC70A1B32104F001D19B0 /* Cholito2015 */ = {
+			isa = PBXGroup;
+			children = (
+				1EFBC70D1B32104F001D19B0 /* AppDelegate.swift */,
+				1EFBC70F1B32104F001D19B0 /* ViewController.swift */,
+				1EFBC7111B32104F001D19B0 /* Main.storyboard */,
+				1EFBC7141B32104F001D19B0 /* Images.xcassets */,
+				1EFBC7161B32104F001D19B0 /* LaunchScreen.xib */,
+				1EFBC70B1B32104F001D19B0 /* Supporting Files */,
+			);
+			path = Cholito2015;
+			sourceTree = "<group>";
+		};
+		1EFBC70B1B32104F001D19B0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1EFBC70C1B32104F001D19B0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1EFBC7201B32104F001D19B0 /* Cholito2015Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1EFBC7231B32104F001D19B0 /* Cholito2015Tests.swift */,
+				1EFBC7211B32104F001D19B0 /* Supporting Files */,
+			);
+			path = Cholito2015Tests;
+			sourceTree = "<group>";
+		};
+		1EFBC7211B32104F001D19B0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1EFBC7221B32104F001D19B0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1EFBC7071B32104F001D19B0 /* Cholito2015 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EFBC7271B32104F001D19B0 /* Build configuration list for PBXNativeTarget "Cholito2015" */;
+			buildPhases = (
+				1EFBC7041B32104F001D19B0 /* Sources */,
+				1EFBC7051B32104F001D19B0 /* Frameworks */,
+				1EFBC7061B32104F001D19B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cholito2015;
+			productName = Cholito2015;
+			productReference = 1EFBC7081B32104F001D19B0 /* Cholito2015.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1EFBC71C1B32104F001D19B0 /* Cholito2015Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EFBC72A1B32104F001D19B0 /* Build configuration list for PBXNativeTarget "Cholito2015Tests" */;
+			buildPhases = (
+				1EFBC7191B32104F001D19B0 /* Sources */,
+				1EFBC71A1B32104F001D19B0 /* Frameworks */,
+				1EFBC71B1B32104F001D19B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1EFBC71F1B32104F001D19B0 /* PBXTargetDependency */,
+			);
+			name = Cholito2015Tests;
+			productName = Cholito2015Tests;
+			productReference = 1EFBC71D1B32104F001D19B0 /* Cholito2015Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1EFBC7001B32104F001D19B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Alejandro Catalan";
+				TargetAttributes = {
+					1EFBC7071B32104F001D19B0 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					1EFBC71C1B32104F001D19B0 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 1EFBC7071B32104F001D19B0;
+					};
+				};
+			};
+			buildConfigurationList = 1EFBC7031B32104F001D19B0 /* Build configuration list for PBXProject "Cholito2015" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1EFBC6FF1B32104F001D19B0;
+			productRefGroup = 1EFBC7091B32104F001D19B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1EFBC7071B32104F001D19B0 /* Cholito2015 */,
+				1EFBC71C1B32104F001D19B0 /* Cholito2015Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1EFBC7061B32104F001D19B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EFBC7131B32104F001D19B0 /* Main.storyboard in Resources */,
+				1EFBC7181B32104F001D19B0 /* LaunchScreen.xib in Resources */,
+				1EFBC7151B32104F001D19B0 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EFBC71B1B32104F001D19B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1EFBC7041B32104F001D19B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EFBC7101B32104F001D19B0 /* ViewController.swift in Sources */,
+				1EFBC70E1B32104F001D19B0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EFBC7191B32104F001D19B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EFBC7241B32104F001D19B0 /* Cholito2015Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1EFBC71F1B32104F001D19B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1EFBC7071B32104F001D19B0 /* Cholito2015 */;
+			targetProxy = 1EFBC71E1B32104F001D19B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1EFBC7111B32104F001D19B0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1EFBC7121B32104F001D19B0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1EFBC7161B32104F001D19B0 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1EFBC7171B32104F001D19B0 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1EFBC7251B32104F001D19B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1EFBC7261B32104F001D19B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1EFBC7281B32104F001D19B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Cholito2015/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1EFBC7291B32104F001D19B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Cholito2015/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1EFBC72B1B32104F001D19B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Cholito2015Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cholito2015.app/Cholito2015";
+			};
+			name = Debug;
+		};
+		1EFBC72C1B32104F001D19B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Cholito2015Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cholito2015.app/Cholito2015";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1EFBC7031B32104F001D19B0 /* Build configuration list for PBXProject "Cholito2015" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EFBC7251B32104F001D19B0 /* Debug */,
+				1EFBC7261B32104F001D19B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EFBC7271B32104F001D19B0 /* Build configuration list for PBXNativeTarget "Cholito2015" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EFBC7281B32104F001D19B0 /* Debug */,
+				1EFBC7291B32104F001D19B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1EFBC72A1B32104F001D19B0 /* Build configuration list for PBXNativeTarget "Cholito2015Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EFBC72B1B32104F001D19B0 /* Debug */,
+				1EFBC72C1B32104F001D19B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1EFBC7001B32104F001D19B0 /* Project object */;
+}
